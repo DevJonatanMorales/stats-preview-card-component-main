@@ -77,14 +77,14 @@ body {
   display: flex;
 }
 
-.text {
+.section__link > p {
   margin-right: 50px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 1.5em;
   color: hsla(0, 0%, 100%, 0.6);
 }
-.text > span {
+.section__link > p > span {
   display: block;
   font-size: 14px;
   font-family: "Inter", sans-serif;
@@ -142,7 +142,7 @@ body {
   }
   .section__title,
   .section_text,
-  .h1 {
+  .section__link > p {
     margin: 20px 0;
   }
 }
