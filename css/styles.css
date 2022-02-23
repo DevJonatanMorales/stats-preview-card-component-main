@@ -9,12 +9,12 @@ body {
 
 .card {
   position: relative;
-  top: 25vh;
+  top: 20vh;
   border-radius: 10px;
   background-color: hsl(244, 38%, 16%);
   max-width: 1440px;
-  width: 1000px;
-  max-height: 450px;
+  width: 1060px;
+  max-height: 430px;
   color: white;
   display: flex;
   overflow: hidden;
@@ -35,7 +35,7 @@ body {
 
 .img__desktop {
   max-width: 550px;
-  height: 387px;
+  height: 430px;
   margin: 0;
 }
 
@@ -43,22 +43,19 @@ body {
   display: block;
   position: absolute;
   background-color: hsla(277, 64%, 61%, 0.5);
-  width: 500px;
-  height: 387px;
+  width: 520px;
+  height: 430px;
   top: 0;
 }
 
 .section__info {
   width: 450px;
-  margin: 50px 80px 50px 50px;
+  margin: 50px 90px 50px 50px;
 }
 
-.section__title,
-.section_text {
-  margin-right: 20px;
-}
 .section__title {
   font-weight: 700;
+  margin-right: 60px;
 }
 
 .section__title > span {
@@ -67,7 +64,8 @@ body {
 
 .section_text {
   text-align: left;
-  margin-top: 25px;
+  margin-right: 50px;
+  margin-top: 40px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 1.5em;
@@ -75,18 +73,24 @@ body {
 }
 
 .section__link {
-  margin-top: 30px;
+  margin-top: 60px;
   display: flex;
 }
 
-.h1 {
-  margin: 0 55px 0 0;
-  color: white;
-}
-.h1 > .p {
-  color: hsla(0, 0%, 100%, 0.6);
+.text {
+  margin-right: 50px;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
+  line-height: 1.5em;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+.text > span {
+  display: block;
   font-size: 14px;
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 18px;
+  line-height: 1.5em;
 }
 
 .attribution a {
